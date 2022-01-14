@@ -1,0 +1,10 @@
+for tablet I must use 2column
+Other things define at figma....
+
+:::::::::::extra mark::::::::
+fontawsome
+googlefont
+in header i should add animation or hover.
+must use sementic tag
+need to use comment
+at the end section I must use a different thing.
