@@ -5,9 +5,13 @@
   box-sizing: border-box;
   font-family: "Exo 2", sans-serif;
 }
-section {
-  margin: 100px 190px;
+section,
+header {
+  margin: 100px 120px;
 }
+/* ------------------------
+    Nav & Logo :start
+------------------------- */
 h3 {
   font-size: 24px;
   cursor: pointer;
@@ -38,4 +42,73 @@ h3 {
 }
 .menu-icon i {
   font-size: 24px;
+}
+/* ----------------------
+        Header :start
+----------------------- */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+h1 {
+  font-size: 50px;
+}
+p {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 16px;
+}
+.header-btn {
+  background: #e02c6d;
+  color: #fff;
+  padding: 10px 24px;
+  text-decoration: none;
+  border-radius: 50px;
+  display: inline-block;
+  font-weight: 700;
+  margin-top: 16px;
+  transition: 0.3s;
+  border: 2px solid #e02c6d;
+  position: relative;
+  overflow: hidden;
+  width: 185px;
+  transition: 0.3s linear;
+}
+.header-btn i {
+  padding-left: 5px;
+}
+.header-btn:hover {
+  background: unset;
+  color: black;
+}
+.fa-angle-double-right {
+  margin-top: 110%;
+  position: absolute;
+  transition: 0.3s;
+  overflow: hidden;
+  margin-left: 3px;
+}
+
+.header-btn:hover .fa-angle-double-right {
+  margin-top: 3px;
+}
+.fa-arrow-right {
+  transition: 0.3s linear;
+}
+.header-btn:hover .fa-arrow-right {
+  display: none;
+}
+
+.right-header {
+  background-image: url(./images/Circle\ design.svg);
+  background-repeat: no-repeat;
+  flex-basis: 40%;
+  background-size: 475px;
+}
+.right-header img {
+  max-width: 450px;
+}
+.left-header {
+  flex-basis: 50%;
 }
